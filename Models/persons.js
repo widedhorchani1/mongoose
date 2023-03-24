@@ -14,9 +14,5 @@ favoriteFoods:{
 }
 })
 module.exports=Person=mongoose.model('Persons',personSchema)
-/*const wided= new person({name:'wided',age:29,favoriteFoods:['pizza','sushi']})
-console.log(wided)
-wided.save().then(savedWided=>{
-    savedWided===wided
-});*/
+
 
